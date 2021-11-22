@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html,body{
+    height: 100vh;
+    background: linear-gradient(135deg,#8a7ae7, #5142a5)
+}
+
+input, textarea, select{outline: 0;}
+
+.box{
+    width: 50%;
+    min-width: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 40px 30px;
+    border: 2px solid #dddfe2;
+    border-radius: 20px;
+}
+
+#newtask{
+    position: relative;
+    background-color: #ffffff;
+    padding: 40px 35px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#newtask input[type=text]{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #775fff;
+    padding-left: 10px;
+}
+
+#newtask button{
+    padding: 15px;
+    margin-left: 40px;  
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #452fc4;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+#newtask button:disabled{
+    pointer-events: none;
+}
+
+#newtask button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#newtask button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+#tasks{
+    position: relative;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    position: relative;
+}
+
+.task{
+    margin-top: 10px;
+    background-color: #ffffff;
+    height: 60px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+.task span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.task button{
+    width: 45px;
+    height: 100%;
+    cursor: pointer;
+    background-color: #452fc4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.task button:disabled{
+    pointer-events: none;
+}
+
+.task button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.task button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+.completed{
+    text-decoration: line-through;
+}
