@@ -10,10 +10,10 @@ Criação de uma lista de tarefas simples.
 
 # Como funciona
 
-* Pode escrever algo na lista 
-* Pode adicionar algo na lista
-* Pode excluir algo da lista
-* Pode marcar uma tarefa concluida
+* Pode escrever uma tarefa na lista 
+* Pode adicionar uma tarefa na lista
+* Pode excluir uma tarefa da lista
+* Pode marcar uma tarefa concluída
 
 # Tecnologias utilizadas
 
