@@ -1,5 +1,6 @@
 # To Do List (Lista de tarefas)
 
+![to do list](https://user-images.githubusercontent.com/93807791/145718233-657b2f69-160d-4e65-9040-1f3a47c09b3f.png)
 
 
 # Descrição 
@@ -12,6 +13,7 @@ Criação de uma lista de tarefas simples.
 * Pode escrever algo na lista 
 * Pode adicionar algo na lista
 * Pode excluir algo da lista
+* Pode marcar uma tarefa concluida
 
 # Tecnologias utilizadas
 
