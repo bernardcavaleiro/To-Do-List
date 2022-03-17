@@ -7,7 +7,20 @@
 
 html,body{
     height: 100vh;
-    background: linear-gradient(135deg,#8a7ae7, #5142a5)
+    background: linear-gradient(135deg,#8a7ae7, #5142a5);
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50%;
+    margin: 50px auto 100px auto;
+    border-radius: 10px;
+    background-color: #5142a5;
+    padding: 5px 30px;
+    min-width: 400px;
 }
 
 input, textarea, select{outline: 0;}
@@ -15,35 +28,36 @@ input, textarea, select{outline: 0;}
 .box{
     width: 50%;
     min-width: 400px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
     padding: 40px 30px;
     border: 2px solid #dddfe2;
-    border-radius: 20px;
+    border-radius: 20px; 
+    margin: auto;  
 }
 
 #newtask{
-    position: relative;
     background-color: #ffffff;
-    padding: 40px 35px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #newtask input[type=text]{
-    width: 70%;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
     border: 2px solid #775fff;
-    padding-left: 10px;
+    flex-grow: 1;
+    margin: 10px;
 }
 
 #newtask button{
-    padding: 15px;
-    margin-left: 40px;  
+    padding: 15px; 
+    margin: 10px;
     font-size: 20px;
     border-radius: 10px;
     border: none;
@@ -51,7 +65,6 @@ input, textarea, select{outline: 0;}
     color: #ffffff;
     font-weight: 500;
     cursor: pointer;
-    position: relative;
     text-align: center;
 	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
     user-select: none;
@@ -75,14 +88,12 @@ input, textarea, select{outline: 0;}
 }
 
 #tasks{
-    position: relative;
     background-color: #ffffff;
     padding: 40px 30px;
     border-radius: 10px 0px 0px 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
     min-height: 150px;
-    position: relative;
 }
 
 /* ADICIONADO SCROLL NAS LISTAS A PARTIR DE 400PX*/
@@ -140,7 +151,6 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    position: relative;
     text-align: center;
 	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
     user-select: none;
