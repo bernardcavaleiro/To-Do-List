@@ -3,32 +3,54 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    /*border: 1px solid red;*/
 }
 
 html,body{
     height: 100vh;
-    background: linear-gradient(135deg,#8a7ae7, #5142a5);
+    background: linear-gradient(135deg, #4329da, #775fff, #a75fff);
     text-align: center;
+    background-attachment: fixed;
+}
+
+div#topo{
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 50%;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span#circulo{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FFF;
+    margin: 10px auto;
+    border-radius: 100%;
+    background-color: #4a36cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
-    font-size: 3em;
+    font-size: 1.5em;
     color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 50%;
-    margin: 50px auto 100px auto;
-    border-radius: 10px;
-    background-color: #5142a5;
-    padding: 5px 30px;
-    min-width: 400px;
 }
 
 input, textarea, select{outline: 0;}
 
 .box{
-    width: 50%;
-    min-width: 400px;
-    padding: 40px 30px;
+    width: 70%;
+    max-width: 400px;
+    min-width: 200px;
+    padding: 20px 15px;
     border: 2px solid #dddfe2;
     border-radius: 20px; 
     margin: auto;  
@@ -36,7 +58,7 @@ input, textarea, select{outline: 0;}
 
 #newtask{
     background-color: #ffffff;
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex; 
@@ -47,18 +69,19 @@ input, textarea, select{outline: 0;}
 }
 
 #newtask input[type=text]{
-    height: 40px;
-    font-size: 20px;
+    height: 30px;
+    font-size: 14px;
     border-radius: 10px;
     border: 2px solid #775fff;
     flex-grow: 1;
-    margin: 10px;
+    margin: 5px;
+    min-width: 250px;
+    text-indent: 8px;
 }
 
 #newtask button{
-    padding: 15px; 
-    margin: 10px;
-    font-size: 20px;
+    padding: 10px; 
+    font-size: 12px;
     border-radius: 10px;
     border: none;
     background-color: #452fc4;
@@ -89,18 +112,18 @@ input, textarea, select{outline: 0;}
 
 #tasks{
     background-color: #ffffff;
-    padding: 40px 30px;
+    padding: 20px 15px;
     border-radius: 10px 0px 0px 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 /* ADICIONADO SCROLL NAS LISTAS A PARTIR DE 400PX*/
 div#task-scroll{
-    margin-top: 50px;
+    margin-top: 20px;
     overflow-y: auto;
-    max-height: 400px;
+    max-height: 300px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -108,7 +131,7 @@ div#task-scroll{
 div#task-scroll::-webkit-scrollbar{
     border-radius: 0px 6px 6px 0px;
     background: #8a7ae7;
-    width: 15px;
+    width: 8px;
 }
 
 div#task-scroll::-webkit-scrollbar-thumb{
@@ -123,8 +146,8 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
 
 .task{
     background-color: #ffffff;
-    height: 60px;
-    padding: 10px 15px;
+    height: 40px;
+    padding: 5px 10px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -139,12 +162,12 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
 }
 
 .task span{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 }
 
 .task button{
-    width: 45px;
+    width: 30px;
     height: 100%;
     cursor: pointer;
     background-color: #452fc4;
