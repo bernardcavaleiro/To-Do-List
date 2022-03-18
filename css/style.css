@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-    border: 1px solid rgba(255, 255, 255, 0);
 }
 
 html,body{
     height: 100%;
-    background: linear-gradient(135deg, #4329da, #775fff, #a75fff);
+    background: linear-gradient(135deg, #2b14aa, #775fff, #a75fff);
     text-align: center;
     background-attachment: fixed;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 div#topo{
@@ -123,6 +123,7 @@ input, textarea, select{outline: 0;}
 div#task-scroll{
     margin-top: 20px;
     overflow-y: auto;
+    overflow-x: hidden;
     max-height: 300px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -146,7 +147,6 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
 
 .task{
     background-color: #ffffff;
-    height: 40px;
     padding: 5px 10px;
     border-radius: 5px;
     display: flex;
@@ -158,17 +158,21 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
 
 /* ADICIONADO EFEITO DE COR SOBRE AS LISTAS */
 .task:hover{
-    background-color: #c7bce9;
+    background-color: #e1d7ff;
 }
 
-.task span{
+.task p#taskname{
     font-size: 15px;
     font-weight: 600;
+    text-align: justify;
+    word-break: break-word
+
 }
 
 .task button{
     width: 30px;
-    height: 100%;
+    min-width: 30px;
+    height: 30px;
     cursor: pointer;
     background-color: #452fc4;
     color: #ffffff;
@@ -180,6 +184,7 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
+    margin-left: 20px;
 }
 
 .task button:disabled{
@@ -196,6 +201,7 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
     transform: translateY(0);
 }
 
-.completed{
+.completed p#taskname{
     text-decoration: line-through;
+    color: rgb(160, 159, 159);
 }
