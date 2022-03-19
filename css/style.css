@@ -1,46 +1,42 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
 
-html,body{
+html, body{
     height: 100%;
     background: linear-gradient(135deg, #2b14aa, #775fff, #a75fff);
-    text-align: center;
     background-attachment: fixed;
-    overflow-x: hidden;
+    text-align: center;
 }
 
-#container{
-    height: 75%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 25%;
-    position: relative;
+header, .box, footer{
+    margin: auto;
+}
+
+.linha{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 header{
-    border: 2px solid #FFF;
-    border-radius: 20px;
     height: 40px;
     width: 70%;
-    min-width: 270px;
+    min-width: 250px;
     max-width: 500px;
-    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-bottom: 70px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 span#circulo{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 110px;
     height: 110px;
-    border: 2px solid #FFF;
     margin: 10px auto;
     border-radius: 100%;
     background-color: #4a36cc;
@@ -54,24 +50,18 @@ h1{
     color: white;
 }
 
-input, textarea, select{outline: 0;}
-
 .box{
     width: 70%;
     max-width: 500px;
     min-width: 250px;
     padding: 20px 15px;
-    border: 2px solid #dddfe2;
-    border-radius: 20px;
 }
 
 #newtask{
     background-color: #ffffff;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex; 
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -84,7 +74,7 @@ input, textarea, select{outline: 0;}
     border: 2px solid #775fff;
     flex-grow: 1;
     margin: 5px;
-    min-width: 150px;
+    min-width: 190px;
     text-indent: 8px;
 }
 
@@ -94,7 +84,7 @@ input, textarea, select{outline: 0;}
     border-radius: 10px;
     border: none;
     background-color: #452fc4;
-    color: #ffffff;
+    color: white;
     font-weight: 500;
     cursor: pointer;
     text-align: center;
@@ -123,7 +113,6 @@ input, textarea, select{outline: 0;}
     background-color: #ffffff;
     padding: 20px 15px;
     border-radius: 10px 0px 0px 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
     min-height: 100px;
 }
@@ -216,19 +205,15 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
 }
 
 footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    margin-top: 300px;
     font-size: 14px;
 }
 
 #creditos{
-    position: absolute;
     padding: 15px 0;
-    border-top:  2px solid #dddfe2;
+    border-top: 2px solid #dddfe2;
     border-bottom:  2px solid #dddfe2;
-    bottom: 0px;
-    width: 100%;
     min-width: 310px;
 }
 
@@ -240,6 +225,7 @@ footer{
 
 #creditos p{
     background-color: rgb(255, 255, 255);
+    margin: 0;
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-weight: bolder;
@@ -255,5 +241,4 @@ footer{
     background-color: #8a7ae736;
     padding: 3px;
     border-radius: 10px;
-
 }
