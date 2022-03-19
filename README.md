@@ -1,6 +1,7 @@
 # To Do List (Lista de tarefas)
 
-![to do list](https://user-images.githubusercontent.com/93807791/145718233-657b2f69-160d-4e65-9040-1f3a47c09b3f.png)
+![print-todolist](https://user-images.githubusercontent.com/86446951/159009130-f61504c8-af10-48fd-82d7-76c861442bd5.png)
+
 
 
 # Descrição 
@@ -60,4 +61,23 @@ Este projeto utiliza a licença [MIT](https://choosealicense.com/licenses/mit/)
 
   <a href="https://www.linkedin.com/in/bernardo-cavaleiro-b9298b203/">
      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="150px;" alt="Imagem do Bernardo Cavaleiro" />
+  </a>
+ 
+# Contibuidores
+ 
+ <table align="center">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/ianmateusrodd">
+                <img src="https://avatars.githubusercontent.com/u/86446951?v=4" width="150px;" alt="Imagem do Ian Rodrigues" />
+                <br />
+                <sub><b>Ian Rodrigues</b></sub>
+            </a>
+        </td>    
+    </tr>
+</table>
+<h4 align="center">
+
+  <a href="https://www.linkedin.com/in/ianmateusrodd/">
+     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="150px;" alt="Imagem do Ian Rodrigues" />
   </a>
