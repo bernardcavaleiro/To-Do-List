@@ -68,7 +68,7 @@ Este projeto utiliza a licença [MIT](https://choosealicense.com/licenses/mit/)
  <table align="center">
     <tr>
         <td align="center">
-            <a href="https://github.com/ianmateusrodd">
+            <a href="https://github.com/ianmrodrigues">
                 <img src="https://avatars.githubusercontent.com/u/86446951?v=4" width="150px;" alt="Imagem do Ian Rodrigues" />
                 <br />
                 <sub><b>Ian Rodrigues</b></sub>
@@ -78,6 +78,6 @@ Este projeto utiliza a licença [MIT](https://choosealicense.com/licenses/mit/)
 </table>
 <h4 align="center">
 
-  <a href="https://www.linkedin.com/in/ianmateusrodd/">
+  <a href="https://www.linkedin.com/in/ianmrodrigues/">
      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="150px;" alt="Imagem do Ian Rodrigues" />
   </a>
