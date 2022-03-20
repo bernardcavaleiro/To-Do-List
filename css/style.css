@@ -1,20 +1,34 @@
 *{
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
 
 html, body{
     background: linear-gradient(135deg, #2b14aa, #775fff, #a75fff);
     background-attachment: fixed;
-    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 ::-webkit-scrollbar{
     width: 0px;
 }
 
+#container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main{
+    flex-grow: 1;
+}
+
 header, .box, footer{
     margin: auto;
+    flex-shrink: 0;
 }
 
 .linha{
@@ -26,12 +40,18 @@ header, .box, footer{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.box-format{
+    background-color: #ffffff;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
 header{
     height: 40px;
     width: 70%;
     min-width: 250px;
     max-width: 500px;
-    margin-top: 200px;
+    margin-top: 10%;
     margin-bottom: 70px;
     display: flex;
     align-items: center;
@@ -61,9 +81,6 @@ h1{
 }
 
 #newtask{
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
     display: flex; 
     flex-wrap: wrap;
     align-items: center;
@@ -103,7 +120,6 @@ h1{
 }
 
 #newtask button:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
 }
 
@@ -113,8 +129,6 @@ h1{
 }
 
 #tasks{
-    background-color: #ffffff;
-    padding: 20px 15px;
     border-radius: 10px 0px 0px 10px;
     width: 100%;
     min-height: 100px;
@@ -208,9 +222,10 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
 }
 
 footer{
+    text-align: center;
     width: 100%;
-    margin-top: 160px;
     font-size: 14px;
+    margin-top: 90px;
 }
 
 #creditos{
@@ -228,7 +243,6 @@ footer{
 
 #creditos p{
     background-color: rgb(255, 255, 255);
-    margin: 0;
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-weight: bolder;
