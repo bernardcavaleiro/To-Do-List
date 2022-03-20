@@ -1,36 +1,65 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
 
-html,body{
-    height: 100%;
+html, body{
     background: linear-gradient(135deg, #2b14aa, #775fff, #a75fff);
-    text-align: center;
     background-attachment: fixed;
-    border: 1px solid rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
 }
 
-div#topo{
-    border: 2px solid #FFF;
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+#container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main{
+    flex-grow: 1;
+}
+
+header, .box, footer{
+    margin: auto;
+    flex-shrink: 0;
+}
+
+.linha{
+    border: 2px solid white;
     border-radius: 20px;
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-format{
+    background-color: #ffffff;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+header{
     height: 40px;
-    width: 50%;
+    width: 70%;
     min-width: 250px;
-    max-width: 400px;
-    margin: 50px auto;
+    max-width: 500px;
+    margin-top: 10%;
+    margin-bottom: 70px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 span#circulo{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 100px;
-    height: 100px;
-    border: 2px solid #FFF;
+    width: 110px;
+    height: 110px;
     margin: 10px auto;
     border-radius: 100%;
     background-color: #4a36cc;
@@ -44,25 +73,15 @@ h1{
     color: white;
 }
 
-input, textarea, select{outline: 0;}
-
 .box{
     width: 70%;
-    max-width: 400px;
-    min-width: 200px;
+    max-width: 500px;
+    min-width: 250px;
     padding: 20px 15px;
-    border: 2px solid #dddfe2;
-    border-radius: 20px; 
-    margin: auto;  
 }
 
 #newtask{
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex; 
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -75,7 +94,7 @@ input, textarea, select{outline: 0;}
     border: 2px solid #775fff;
     flex-grow: 1;
     margin: 5px;
-    min-width: 150px;
+    min-width: 190px;
     text-indent: 8px;
 }
 
@@ -85,7 +104,7 @@ input, textarea, select{outline: 0;}
     border-radius: 10px;
     border: none;
     background-color: #452fc4;
-    color: #ffffff;
+    color: white;
     font-weight: 500;
     cursor: pointer;
     text-align: center;
@@ -101,7 +120,6 @@ input, textarea, select{outline: 0;}
 }
 
 #newtask button:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
 }
 
@@ -111,10 +129,7 @@ input, textarea, select{outline: 0;}
 }
 
 #tasks{
-    background-color: #ffffff;
-    padding: 20px 15px;
     border-radius: 10px 0px 0px 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
     min-height: 100px;
 }
@@ -124,7 +139,7 @@ div#task-scroll{
     margin-top: 20px;
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 300px;
+    max-height: 250px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -204,4 +219,43 @@ div#task-scroll::-webkit-scrollbar-thumb:hover{
 .completed p#taskname{
     text-decoration: line-through;
     color: rgb(160, 159, 159);
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 90px;
+}
+
+#creditos{
+    padding: 15px 0;
+    border-top: 2px solid #dddfe2;
+    border-bottom:  2px solid #dddfe2;
+    min-width: 310px;
+}
+
+#creditos q{
+    color: #3a0b77;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#creditos p{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: bolder;
+}
+
+#creditos p a:link, #creditos p a:visited{
+    text-decoration: none;
+    color: #6509dd;
+}
+
+#creditos p a:hover{
+    color: #3a0b77;
+    background-color: #8a7ae736;
+    padding: 3px;
+    border-radius: 10px;
 }
