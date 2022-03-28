@@ -12,7 +12,7 @@ Feito em colaboração com <a href="https://github.com/bernardcavaleiro/"> @Bern
 
 ### Acesse a página <a href="https://ianmrodrigues.github.io/To-Do-List/"> ianmrodrigues.github.io/To-Do-List/ </a>
 * Escreva uma tarefa e edicione clicando no botão <strong>'Adicionar'</strong> ou apertando a tecla <strong>'Enter'</strong>
-* Você pode excluir a tarefa na lista com o botão destinado para essa função
+* Você pode excluir a tarefa da lista com o botão destinado para essa função
 * Você pode marcar a tarefa como concuída ao clicar sobre a mesma
 
 # Tecnologias
