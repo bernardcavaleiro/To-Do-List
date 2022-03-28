@@ -5,79 +5,30 @@
 
 
 # Descrição 
-Meu primeiro projeto de estudo sobre JavaScript.
-<br/>
-Criação de uma lista de tarefas simples.
+Projeto do tipo 'To-Do List' feito utilizando HTML5, CSS e JavaScript.
+Feito em colaboração com <a href="https://github.com/bernardcavaleiro/"> @BernardCavaleiro </a>.<br>
 
-# Como funciona
+# Como usar
 
-* Pode escrever uma tarefa na lista 
-* Pode adicionar uma tarefa na lista
-* Pode excluir uma tarefa da lista
-* Pode marcar uma tarefa concluída
+### Acesse a página <a href="https://ianmrodrigues.github.io/To-Do-List/"> ianmrodrigues.github.io/To-Do-List/ </a>
+* Escreva uma tarefa e edicione clicando no botão <strong>'Adicionar'</strong> ou apertando a tecla <strong>'Enter'</strong>
+* Você pode excluir a tarefa na lista com o botão destinado para essa função
+* Você pode marcar a tarefa como concuída ao clicar sobre a mesma
 
-# Tecnologias utilizadas
+# Tecnologias
 
-<p align="left">
+<p>
  <br/>
     <img
       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-      alt="HTML5"
-      width="100"
-      height="100"
+      alt="HTML5" width="50"
     />
     <img
       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-      alt="Css3"
-      width="100"
-      height="100"
+      alt="Css3" width="50"
     />
      <img
       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-      alt="Css3"
-      width="100"
-      height="100"
+      alt="Css3" width="50"
     />
  </p>
- 
-# Licença
-
-Este projeto utiliza a licença [MIT](https://choosealicense.com/licenses/mit/)
-
-# Autor
-
-<table align="center">
-    <tr>
-        <td align="center">
-            <a href="https://github.com/bernardcavaleiro">
-                <img src="https://user-images.githubusercontent.com/93807791/144758419-035c864b-59fb-4efe-bb86-22b2bd0e41cc.jpeg" width="150px;" alt="Imagem do Bernardo Cavaleiro" />
-                <br />
-                <sub><b>Bernardo Cavaleiro</b></sub>
-            </a>
-        </td>    
-    </tr>
-</table>
-<h4 align="center">
-
-  <a href="https://www.linkedin.com/in/bernardo-cavaleiro-b9298b203/">
-     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="150px;" alt="Imagem do Bernardo Cavaleiro" />
-  </a>
- 
-# Contibuidores
- 
- <table align="center">
-    <tr>
-        <td align="center">
-            <a href="https://github.com/ianmrodrigues">
-                <img src="https://avatars.githubusercontent.com/u/86446951?v=4" width="150px;" alt="Imagem do Ian Rodrigues" />
-                <br />
-                <sub><b>Ian Rodrigues</b></sub>
-            </a>
-        </td>    
-    </tr>
-</table>
-<h4 align="center">
-
-  <a href="https://www.linkedin.com/in/ianmrodrigues/">
-     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="150px;" alt="Imagem do Ian Rodrigues" />
-  </a>
